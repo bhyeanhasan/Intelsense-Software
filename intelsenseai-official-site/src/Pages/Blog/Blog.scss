@@ -1,0 +1,54 @@
+.blog-wrapper {
+  overflow-x: hidden;
+  .blog-heading {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+  }
+
+  .line {
+    border-bottom: 1.5px solid #eee;
+    width: 90%;
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 4rem;
+  }
+
+  .featured-blog {
+    h2 {
+      color: #0099dc;
+      font-size: 2rem;
+      font-weight: 600;
+      margin-top: 4rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    img {
+      max-width: 36rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      max-width: 600px;
+    }
+
+    .read-button {
+      background-color: #0099dc;
+      color: white;
+      padding: 5px 50px;
+
+      &:hover {
+        background-color: #59c5eb;
+      }
+    }
+  }
+}

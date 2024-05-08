@@ -1,0 +1,33 @@
+.review-wrapper {
+  .heading {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 52px;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .designation {
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.7;
+  }
+  .all-card {
+    width: 400px;
+
+    .cards {
+      width: 400px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 30px rgb(225, 225, 225);
+
+      .logo {
+        height: 50px;
+        width: 50px;
+        border: 2px solid greenyellow;
+        border-radius: 100%;
+      }
+    }
+  }
+}

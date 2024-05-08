@@ -1,0 +1,30 @@
+.product-wrapper {
+  .heading {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 52px;
+  }
+  .sub-heading {
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.7;
+  }
+  .cards {
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sub-title {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 28px;
+      opacity: 0.8;
+    }
+  }
+}
+
+.product-card-img{
+  max-width: 300px;
+}

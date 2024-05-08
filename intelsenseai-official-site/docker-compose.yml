@@ -1,0 +1,15 @@
+version: "3.2"
+services:
+  frontend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: intelsense-ai
+    ports:
+      - "80:80"
+    environment:
+        NODE_ENV: production
+        REACT_APP_SERVICE_ID: service_vmd28ua
+        REACT_APP_TEMPLATE_ID: template_z787ro4
+        REACT_APP_USER_ID: vHYjjaLYYhMB2uc6x
+

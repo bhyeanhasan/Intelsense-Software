@@ -1,0 +1,119 @@
+.about-wrapper {
+  width: 100%;
+  overflow: hidden;
+  // hero section
+  .aboutus-intro {
+    background: url(../../Assets/images/team.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    height: 45vh;
+
+    h2 {
+      width: 90%;
+      font-size: 4rem;
+    }
+  }
+
+  .hero-right {
+    .line {
+      border-bottom: 1.5px solid #eee;
+      width: 90%;
+      max-width: 1920px;
+      margin: auto;
+      padding-top: 4rem;
+    }
+
+    h2 {
+      padding-top: 4rem;
+      color: #5899bb;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
+    h1 {
+      width: 55%;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin: auto;
+    }
+  }
+
+  .who-we-are-container{
+    p{
+      text-align: justify;
+    }
+  }
+  // info section
+  .info-wrapper-sention-1,
+  .info-wrapper-sention-2,
+  .info-wrapper-sention-3 {
+    background-color: #1e1f2e !important;
+    background: url(../../Assets/images/about/infobg.png);
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    img {
+      height: 60px;
+      width: 60px;
+    }
+  }
+
+  // .info-wrapper-sention-3>div>div {
+  //   border-bottom: 2px solid rgba(184, 184, 184, 0.738);
+  // }
+
+  // work section
+  .work-wrapper {
+    background-color: #1e1f2e !important;
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .info-image {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
+
+
+.history-snap-scroll{
+  .carousel-indicators-custom{
+    margin-left: 0;
+    margin-right: auto;
+    text-indent: 0;
+    .active{
+      border-bottom: 2px solid #ffc107;
+      color: #ffc107;
+    }
+    button{
+      text-indent: 0px;
+      width: auto;
+      height: auto;
+      color: white;
+    }
+  }
+  img{
+    margin-bottom: 0;
+    max-height: 400px;
+  }
+}
+
+.about-img{
+
+}

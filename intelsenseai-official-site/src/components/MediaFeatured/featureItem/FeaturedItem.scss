@@ -1,0 +1,40 @@
+.featured-item {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  .icon {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 1s ease-in-out;
+  }
+
+  .title {
+    flex: 1;
+    color: #001222;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+  }
+
+  &:hover .icon {
+    background-color: #001222;
+    color: #fff;
+    transform: rotate(360deg);
+  }
+  &:hover .title {
+     color: #fff;;
+  }
+}
+
+

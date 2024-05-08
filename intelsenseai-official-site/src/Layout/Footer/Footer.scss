@@ -1,0 +1,79 @@
+.main-footer {
+
+  img {
+    width: 200px;
+    height: 31px;
+  }
+  p,
+  h5,
+  h6,
+  a {
+    color: white;
+  }
+  p,
+  h6,
+  a {
+    transition: all 0.3s;
+
+    &:hover {
+      color: #0099dc;
+    }
+  }
+  h6 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .line {
+    height: 1px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(206, 211, 246, 0) 0,
+      #ced3f6 38%,
+      #ced3f6 64%,
+      rgba(206, 211, 246, 0) 99%
+    );
+    opacity: 0.9;
+  }
+  .line {
+    height: 1px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(206, 211, 246, 0) 0,
+      #ced3f6 38%,
+      #ced3f6 64%,
+      rgba(206, 211, 246, 0) 99%
+    );
+    opacity: 0.9;
+  }
+  .line2 {
+    height: 100%;
+    width: 1px;
+    background-image: linear-gradient(
+      0deg,
+      rgba(206, 211, 246, 0) 0,
+      #ced3f6 38%,
+      #ced3f6 64%,
+      rgba(206, 211, 246, 0) 99%
+    );
+    opacity: 0.9;
+  }
+}
+
+.bottom-footer {
+  color: white;
+  a {
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #0099dc;
+    }
+  }
+  .bottomFooterLogo {
+    width: 100px;
+    height: 15px;
+  }
+}

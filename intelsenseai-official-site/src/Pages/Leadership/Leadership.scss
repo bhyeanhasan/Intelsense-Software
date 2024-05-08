@@ -1,0 +1,69 @@
+.leadership-wrapper {
+    // background-color: #001d33;
+    margin: 0;
+}
+
+.leadership-intro {
+    height: 90vh;
+    background-color: #217ADF;
+}
+
+.leadership-intro-img {
+    opacity: 0.5;
+    background: url(../../Assets/images/leadership/leadership-intro.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 35vh;
+
+    .intro-gradient {
+        z-index: 2;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70%;
+    }
+
+    .purple {
+        background-image: linear-gradient(0deg, rgba(33,122,223,1) 33%, rgba(39,139,253, 0.01) 87%);
+        height: 40%;
+    }
+}
+
+.intro-text {
+    background-color: #217ADF;
+}
+
+.mission-block {
+    margin-top: -100px;
+    box-shadow: 0 0 16px rgba(63, 77, 85, .1);
+    font-size: 18px;
+
+    .mission-button {
+        background-color: #6cc5ed;
+        color: #000;
+
+        &:hover {
+            background-color: #0a8cda;
+            color: white;
+        }
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
+
+

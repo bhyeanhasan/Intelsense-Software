@@ -1,0 +1,15 @@
+.close-button{
+    &:hover{
+        color:red
+    }
+}
+
+.profile-description{
+    text-align: justify;
+}
+.name{
+    margin-top: 16px;
+}
+.designation{
+    text-align: center;
+}

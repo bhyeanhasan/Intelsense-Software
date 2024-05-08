@@ -1,0 +1,32 @@
+.service-top {
+    background: url("../../Assets/images/service 4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.service-page{
+    .service-container{
+        margin-top: -300px;
+        z-index: 1200;
+        background-color: white;
+    }
+}
+
+.card{
+    height: 320px;
+    margin-bottom: 10px;
+}
+.card-business{
+    height: 150px;
+}
+
+.business{
+    height: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.cloud{
+    border-radius: 20px;
+}

@@ -1,0 +1,22 @@
+.intelsenseai-in-numbers-wrapper {
+  .main {
+    background-size: cover;
+    background: url(../../Assets/images/HOME/IAI-in-numbers/background-vector.png);
+
+    img {
+      height: 380px;
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .intelsenseai-in-numbers-wrapper {
+    .main {
+      img {
+        height: auto;
+      }
+    }
+  }
+}

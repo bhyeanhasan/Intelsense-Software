@@ -1,0 +1,61 @@
+.contact-wrapper {
+    background: #1e1f2e;
+    color:#fff;
+    .hero {
+      background: url(../../../Assets/images/CONTACT/bg01.png);
+    }
+  
+    .faq-section{
+        background: #0099dc;
+    }
+    .info{
+        .sub-info{
+            text-align: justify;
+        }
+    }
+    .map{
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 20px;
+
+                border: 2px solid #ddd;
+            }
+    }
+
+    .info-wrapper-section-1{
+        background: #0099dc !important;
+        .heroimg img{
+            width: 100%;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .text-justify{
+            text-align: justify;
+        }
+    }
+    .info-wrapper-section-2 {
+        background-color: #1e1f2e !important;
+        background: url(../../../Assets/images/about/infobg.png);
+    
+        p {
+          font-size: 18px;
+          text-align: justify;
+        }
+    
+        img {
+          height: 60px;
+          width: 60px;
+        }
+      }
+      .info-wrapper-section-3{
+        background: #0099dc !important;
+      }
+    .agreement {
+      font-size: 12px;
+      line-height: 16px;
+      opacity: 0.5;
+    }
+  }
+  

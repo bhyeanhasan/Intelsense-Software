@@ -1,0 +1,12 @@
+.blog-post-card {
+    &:hover {
+        h5 {
+            color: #0099dc;
+        }
+
+        .blog-post-arrow {
+            color: #0099dc;
+            font-size: larger;
+        }
+    }
+}
